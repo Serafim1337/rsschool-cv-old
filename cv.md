@@ -38,3 +38,8 @@
 to do
 
 ```
+## Education 
+* [BSUIR (Faculty of Engineering and Economics)](https://www.bsuir.by/ru/ief)
+* [RS School JS / FRONT-END. STAGE 0](https://rs.school/)
+* [Code Basics (HTML, CSS, JS)](https://ru.code-basics.com/)
+* [LearnJavaScript.ru](https://learn.javascript.ru/)
