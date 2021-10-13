@@ -74,27 +74,6 @@ public class servlet2 extends HttpServlet{
                     "</p>"+
                     "</center>");
         }
-        if (math_action.equals("*"))
-        {
-            writer.println("<center>"+
-                    "<p>"+
-                    "<font size=5  color = red face=Arial>" +
-                    number1 +" "+ math_action+" "+number2+" = "+res3+
-                    "</font"+
-                    "</p>"+
-                    "</center>");
-        }
-        if (math_action.equals("/"))
-        {
-            writer.println("<center>"+
-                    "<p>"+
-                    "<font size=5  color = red face=Arial>" +
-                    number1 +" "+ math_action+" "+number2+" = "+res4+
-                    "</font"+
-                    "</p>"+
-                    "</center>");
-        }
-
 ```
 ## Education 
 * [BSUIR (Faculty of Engineering and Economics)](https://www.bsuir.by/ru/ief)
