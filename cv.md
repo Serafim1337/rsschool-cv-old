@@ -9,6 +9,7 @@
 
  
 ## About Me
+
 >I am 20 years old student of BSUIR, studying my third year on the Faculty of Engineering and Economics.
 >
 >While studying here we have received knowledge in many subjects: from history and sociology to economic sciences and programming. I enjoy studying economics, but i am also keen on programming.
@@ -16,6 +17,7 @@
 >We have studied few programming languages and spheres but i want to do my best at front-end)
 
 ## Skills
+
 [*Labs examples in my repo*](https://github.com/Serafim1337/repo/tree/labs)
 * Java
     * Java EE (Java Servlets, JSP, Hibernate, TCP/IP&UDP Client-Server) 
@@ -34,6 +36,7 @@
 * Adobe Photoshop
 
 ## Code example
+
 [Java Servlet](https://github.com/Serafim1337/repo/tree/labs/JavaSE%20Servlet%20lab), implementing simple math actions:
 ```
 @WebServlet("/2servlet")
@@ -75,7 +78,9 @@ public class servlet2 extends HttpServlet{
                     "</center>");
         }
 ```
+
 ## Education 
+
 * [BSUIR (Faculty of Engineering and Economics)](https://www.bsuir.by/ru/ief)
 * [RS School JS / FRONT-END. STAGE 0](https://rs.school/)
 * [Code Basics (HTML, CSS, JS)](https://ru.code-basics.com/)
