@@ -16,9 +16,9 @@
 >We have studied few programming languages and spheres but i want to do my best at front-end)
 
 ## Skills
-
+[*Labs examples in my repo*](https://github.com/Serafim1337/repo/tree/labs)
 * Java
-    * Java EE (Java Servlets, JSP, Hibernate, TCP/IP&UDP Client-Server)
+    * Java EE (Java Servlets, JSP, Hibernate, TCP/IP&UDP Client-Server) 
     * Java SE (Swing)
     * JDBC 
     * Java FX (Scene Builder)
