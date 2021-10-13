@@ -86,7 +86,7 @@ public class servlet2 extends HttpServlet{
 * [Code Basics (HTML, CSS, JS)](https://ru.code-basics.com/)
 * [LearnJavaScript.ru](https://learn.javascript.ru/)
 
- ## Languages
+## Languages
 
  * Belorussian 
  * Russian
