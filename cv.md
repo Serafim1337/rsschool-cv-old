@@ -80,8 +80,10 @@ public class servlet2 extends HttpServlet{
 * [RS School JS / FRONT-END. STAGE 0](https://rs.school/)
 * [Code Basics (HTML, CSS, JS)](https://ru.code-basics.com/)
 * [LearnJavaScript.ru](https://learn.javascript.ru/)
+
  ## Languages
- 1. Belorussian 
- 1.  Russian
- 1. English **B1+**([training.by](https://training.by/#!/Home?lang=ru&City=37,38,39,40,41,42,50) test results: **B2**)
+
+ * Belorussian 
+ * Russian
+ * English **B1+**([training.by](https://training.by/#!/Home?lang=ru&City=37,38,39,40,41,42,50) test results: **B2**)
      * Courses [100ballov](https://www.100ballov.by/)
