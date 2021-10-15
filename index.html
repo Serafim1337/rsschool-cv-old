@@ -1,12 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="style.css" rel="stylesheet">   
 </head>
 <body>
-    
+    <header>
+        <div class="navigation_panel" >
+            <nav class="nav_links"> 
+                
+                <a href="#contacts-id" class="contact_link"> CONTACTS</a> 
+                <a href="#about_id" class="about_link"> ABOUT ME</a>
+                <a href="#skills_id" class="skills_link"> SKILLS</a>
+                <a href="#code_id" class="code_link"> CODE EXAMPLE </a>
+                <a href="#education_id" class="education_link"> EDUCATION</a>
+                <a href="#lang_id" class="lang_link"> LANGUAGES</a>
+            
+            </nav>
+
+        </div>
+    </header>
+    <main class="main_class">
+        <div class="contacts_class" id="contacts-id">
+           <aside>
+            <figure>
+                <img src="materials/IMG_2024.JPG" alt="User photo" class="image_class">
+                <figcaption>Literally Me</figcaption>
+            </figure>
+           <h1>Contact information</h1> 
+           
+           <ul>
+               <li>Phone: +375297777920</li>
+               <li>E-mail: plamen2001@mail.ru</li>
+               <li>Telegram: @sam_sambl4</li>
+               <li>GitHub: Serafim1337</li>
+           </ul>
+         
+           </aside>
+        </div>
+        <div class="about_class" id="about_id">
+<section>
+    <h3>About Me</h3>
+   <p> I am 20 years old student of BSUIR, studying my third year on the Faculty of Engineering and Economics.
+
+    <br>While studying here we have received knowledge in many subjects: from history and sociology to economic sciences and programming. I enjoy studying economics, but i am also keen on programming.
+
+    <br>We have studied few programming languages and spheres but i want to do my best at front-end)
+</p>
+</section>
+        </div>
+        <div class="skills_class" id="skills_id">
+<section>
+    <h3>Skills</h3>
+    <a href="https://github.com/Serafim1337/repo/tree/labs" class="labs_link">View labs examples in my repo</a>
+    <ul>
+        <li>Java</li>
+        <ul>
+            <li>Java EE (Java Servlets, JSP, Hibernate, TCP/IP&UDP Client-Server)</li>
+            <li>Java SE (Swing)</li>
+            <li>JDBC</li>
+            <li>Java FX (Scene Builder)</li>
+        </ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS (Fundamentals)</li>
+        <li>C/C++ (Fundamentals)</li>
+        <li>Git/GitHub</li>
+        <li>SQL (Fundamentals)
+            <ul>
+                <li>Microsoft SQL Server, MySQL Workbench, ERwin Data Modeler</li>
+            </ul>
+        </li>
+        <li>Function modeling (IDEF0, IDEF3, UML)</li>
+        <li>Visual Studio, VS Code, IntelliJ IDEA</li>
+        <li>Adobe Photoshop</li>
+    </ul>
+</section>
+        </div>
+        <div class="code_class" id="code_id">
+            <h3>Code example</h3>
+            <a href=" https://github.com/Serafim1337/repo/tree/labs/JavaSE%20Servlet%20lab" class="labs_link">Java Servlet, implementing simple math actions:</a>
+            <pre>
+            <code>
+                @WebServlet("/2servlet")
+                public class servlet2 extends HttpServlet{
+                    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+                            throws ServletException, IOException {
+                
+                        response.setContentType("text/html");
+                        PrintWriter writer = response.getWriter();
+                
+                        String number1 = request.getParameter("number1");
+                        String number2 = request.getParameter("number2");
+                        String math_action = request.getParameter("math_action");
+                        float num1= Float.parseFloat(number1);
+                        int num2= Integer.parseInt(number2);
+                        float res1=num1+num2;
+                        float res2=num1-num2;
+                        float res3=num1*num2;
+                        float res4=num1/num2;
+                        if (math_action.equals("+"))
+                        {
+                            writer.println("<<span>center</span>>"+
+                                    "<<span>p</span>>"+
+                                    "<<span>font size=5  color = red face=Arial</span>>" +
+                                    number1 +" "+ math_action+" "+number2+" = "+res1+"
+                                    <<span>/font"+ "</span><<span>/p</span>>"+"<<span>/center></span>");
+                        }
+                        if (math_action.equals("-"))
+                        {
+                            writer.println("<<span>center</span>>"+
+                            "<<span>p</span>>"+
+                            "<<span>font size=5  color = red face=Arial</span>>" +
+                                    number1 +" "+ math_action+" "+number2+" = "+res2+"
+                                    <<span>/font"+ "</span><<span>/p</span>>"+"<<span>/center></span>");
+                        }                   
+            </code>
+        </pre>
+        </div>
+        <div class="education_class" id="education_id">
+<h3>Education</h3>
+        </div>
+        <div class="lang_class" id="lang_id">
+
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
 </body>
 </html>

@@ -1,0 +1,177 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navigation_panel {
+    position: fixed;
+    left: 450px;
+    background-color: #5BC0BE;
+    width: 1010px;
+    height: 100px;
+    z-index: 100;
+}
+
+
+
+.nav_links {
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+
+.contact_link {
+    position:relative;
+    left: 30px;
+    top: 30px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.contact_link:hover {
+background-color: #3A506B;
+
+padding-top: 30px;
+padding-bottom: 46px;
+}
+
+.about_link {
+    position:relative;
+    left: 60px;
+    top: 30px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.about_link:hover {
+    background-color: #3A506B;
+    padding-top: 30px;
+    padding-bottom: 46px;
+}
+
+.skills_link {
+    position:relative;
+    left: 90px;
+    top: 30px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.skills_link:hover {
+    background-color: #3A506B;
+    padding-top: 30px;
+    padding-bottom: 46px;
+}
+
+.code_link {
+    position:relative;
+    left: 120px;
+    top: 30px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.code_link:hover {
+    background-color: #3A506B;
+    padding-top: 30px;
+    padding-bottom: 46px;
+}
+
+.education_link {
+    position:relative;
+    left: 150px;
+    top: 30px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.education_link:hover {
+    background-color: #3A506B;
+    padding-top: 30px;
+    padding-bottom: 46px;
+}
+
+.lang_link {
+    position:relative;
+    left: 180px;
+    top: 30px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.lang_link:hover {
+    background-color: #3A506B;
+    padding-top: 30px;
+    padding-bottom: 46px;
+}
+
+.contacts_class {
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.image_class {
+    width: 240px;
+    height: 320px;
+}
+
+.about_class {
+
+position: relative;
+bottom: 200px;
+left: 440px;
+background-color:#1C2541;
+color: #ffffff;
+height: 160px;
+padding: 20px;
+width: 970px;
+    
+
+}
+
+.main_class {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+
+.skills_class {
+    position: relative;
+    left: 440px;
+    width: 970px;
+    padding: 20px;
+    background-color:#1C2541;
+    color: #ffffff;
+}
+
+.labs_link {
+    color: #ffffff;
+    font-style: italic;
+}
+
+.labs_link:hover {
+    background-color: #3A506B;;
+    padding: 15px;
+}
+
+.code_class {
+    position: relative;
+    left: 440px;
+    width: 970px;
+    padding: 20px;
+    top: 150px;
+    color: #ffffff;
+    background-color:#1C2541;
+}
+
+.education_class {
+    position: relative;
+    top: 300px;
+    left: 440px;
+    width: 970px;
+    padding: 20px;
+    color: #ffffff;
+    background-color:#1C2541;
+}
