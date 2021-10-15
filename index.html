@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+    <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="style.css" rel="stylesheet">   
 </head>
+
 <body>
     <header>
-        <div class="navigation_panel" >
+        <div class="dropdown_menu">
+            <button class="drop_button"><img src="materials/menu2.2.png" class="menu_button_image"></button>
+        <div class="navigation_panel">
             <nav class="nav_links"> 
-                
-                <a href="#contacts-id" class="contact_link"> CONTACTS</a> 
-                <a href="#about_id" class="about_link"> ABOUT ME</a>
-                <a href="#skills_id" class="skills_link"> SKILLS</a>
-                <a href="#code_id" class="code_link"> CODE EXAMPLE </a>
-                <a href="#education_id" class="education_link"> EDUCATION</a>
-                <a href="#lang_id" class="lang_link"> LANGUAGES</a>
-            
+                <ul class="nav_links_list">
+             <li>  <a href="#contacts-id" class="contact_link"> CONTACTS</a> </li> 
+             <li>  <a href="#about_id" class="about_link"> ABOUT ME</a></li> 
+              <li> <a href="#skills_id" class="skills_link"> SKILLS</a></li> 
+             <li>  <a href="#code_id" class="code_link"> CODE EXAMPLE </a></li> 
+              <li>  <a href="#education_id" class="education_link"> EDUCATION</a></li> 
+              <li>  <a href="#lang_id" class="lang_link"> LANGUAGES</a></li> 
+            </ul>
             </nav>
 
         </div>
+    </div>
     </header>
     <main class="main_class">
         <div class="contacts_class" id="contacts-id">
-           <aside>
+           <aside class="contacts_class_aside">
             <figure>
                 <img src="materials/IMG_2024.JPG" alt="User photo" class="image_class">
                 <figcaption>Literally Me</figcaption>
@@ -33,10 +37,10 @@
            <h1>Contact information</h1> 
            
            <ul>
-               <li>Phone: +375297777920</li>
-               <li>E-mail: plamen2001@mail.ru</li>
-               <li>Telegram: @sam_sambl4</li>
-               <li>GitHub: Serafim1337</li>
+               <li class="contact_item">Phone: <a href="tel:+375297777920" class="contact_item_link">+375297777920</a></li>
+               <li class="contact_item">E-mail: <a href="mailto:plamen2001@mail.ru" class="contact_item_link">plamen2001@mail.ru</a></li>
+               <li class="contact_item">Telegram: <a href="https://t.me/sam_sambl4" class="contact_item_link">@sam_sambl4</a></li>
+               <li class="contact_item">GitHub: <a href="https://github.com/Serafim1337" class="contact_item_link">Serafim1337</a></li>
            </ul>
          
            </aside>
@@ -44,7 +48,7 @@
         <div class="about_class" id="about_id">
 <section>
     <h3>About Me</h3>
-   <p> I am 20 years old student of BSUIR, studying my third year on the Faculty of Engineering and Economics.
+   <p> I am 20 years old student of <a href="https://www.bsuir.by/" class="about_class_link">BSUIR</a>, studying my third year on the Faculty of Engineering and Economics.
 
     <br>While studying here we have received knowledge in many subjects: from history and sociology to economic sciences and programming. I enjoy studying economics, but i am also keen on programming.
 
@@ -84,7 +88,7 @@
             <h3>Code example</h3>
             <a href=" https://github.com/Serafim1337/repo/tree/labs/JavaSE%20Servlet%20lab" class="labs_link">Java Servlet, implementing simple math actions:</a>
             <pre>
-            <code>
+            <code class="code_section">
                 @WebServlet("/2servlet")
                 public class servlet2 extends HttpServlet{
                     protected void doPost(HttpServletRequest request, HttpServletResponse response)
@@ -123,14 +127,30 @@
         </div>
         <div class="education_class" id="education_id">
 <h3>Education</h3>
+<ul>
+    <li><a href="https://www.bsuir.by/ru/ief" class="edu_block_links">BSUIR (Faculty of Engineering and Economics)</a></li>
+    <li><a href="https://www.bsuir.by/ru/ief" class="edu_block_links">RS School JS / FRONT-END. STAGE 0</a></li>
+    <li><a href="https://ru.code-basics.com/" class="edu_block_links">Code Basics (HTML, CSS, JS)</a></li>
+    <li><a href="https://learn.javascript.ru/" class="edu_block_links">LearnJavaScript.ru</a></li>
+</ul>
         </div>
         <div class="lang_class" id="lang_id">
-
+            <h3>Languages</h3>
+<ul>
+    <li>Belorussian </li>
+    <li>Russian</li>
+    <li>English B1+ (<a href="https://training.by/#!/Home?lang=ru&City=37,38,39,40,41,42,50" class="lang_block_links">training.by</a> test results: B2)
+        <ul>
+            <li>Courses <a href="https://www.100ballov.by/" class="lang_block_links">100ballov</a></li>
+        </ul>
+    </li>
+</ul>
         </div>
+
     </main>
 
-    <footer>
-
+    <footer class="footer_class">
+<p>bruh</p>
     </footer>
 </body>
 </html>
