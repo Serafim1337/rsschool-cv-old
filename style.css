@@ -11,7 +11,7 @@ body {
 .navigation_panel {
     position: fixed;
     top: 110px;
-    left: 1470px;
+    left: 1510px;
     background-color: #1C2541;
     width: 270px;
     height: 340px;
@@ -34,7 +34,7 @@ body {
     top: 50px;
     width: 60px;
     height: 60px;
-    left: 1470px;
+    left: 1510px;
     background-color: #1C2541;
     padding: 16px;
     border: none;
@@ -357,7 +357,30 @@ line-height: 30px;
     position: relative;
     top: 400px;
     background-color: #1C2541;
-    height: 100px;
+    height: 150px;
     margin: 0;
     width: 100%;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer_gh_image {
+    position: relative;
+    right: 500px;
+    width: 200px;
+    bottom: 25px;
+    
+}
+
+.footer_rs_school_logo {
+    position: relative;
+    width: 200px;
+    left: 500px;
+    bottom: 45px;
+}
+
+.footer_2021{
+    width: 200px;
 }
