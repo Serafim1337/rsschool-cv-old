@@ -10,11 +10,11 @@ body {
 
 .navigation_panel {
     position: fixed;
-    top: 60px;
-    left: 1500px;
+    top: 110px;
+    left: 1470px;
     background-color: #1C2541;
-    width: 300px;
-    height: 330px;
+    width: 270px;
+    height: 340px;
     z-index: 100;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -182,7 +182,10 @@ padding: 15px;
 }
 
 .contacts_class {
+    position: relative;
     background-color:#1C2541;
+    top: 20px;
+    left: 440px;
     width: 300px;
     height: 600px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -219,15 +222,28 @@ padding: 15px;
 .about_class {
 
 position: relative;
-bottom: 200px;
-left: 440px;
+bottom: 620px;
+left: 920px;
 background-color:#1C2541;
 color: #ffffff;
-height: 190px;
+height: 380px;
 padding: 20px;
-width: 970px;
+width: 485px;
 line-height: 30px;
 -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.video_class {
+    position: relative;
+    right: 90px;
+    top: 80px;
+    z-index: 1000;
+    background-color: #0B132B;
+    width: 600px;
+    height: 400px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
@@ -252,6 +268,7 @@ line-height: 30px;
     position: relative;
     left: 440px;
     width: 970px;
+    bottom: 90px;
     padding: 20px;
     background-color:#1C2541;
     color: #ffffff;
@@ -276,7 +293,7 @@ line-height: 30px;
     left: 440px;
     width: 970px;
     padding: 20px;
-    top: 150px;
+    
     color: #ffffff;
     background-color:#1C2541;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -290,7 +307,7 @@ line-height: 30px;
 
 .education_class {
     position: relative;
-    top: 300px;
+    top: 100px;
     left: 440px;
     width: 970px;
     padding: 20px;
@@ -314,7 +331,7 @@ line-height: 30px;
 
 .lang_class {
     position: relative;
-    top: 500px;
+    top: 210px;
     left: 440px;
     width: 970px;
     padding: 20px;
@@ -338,9 +355,8 @@ line-height: 30px;
 
 .footer_class {
     position: relative;
-    top: 700px;
+    top: 400px;
     background-color: #1C2541;
-    width: 1200px;
     height: 100px;
     margin: 0;
     width: 100%;
