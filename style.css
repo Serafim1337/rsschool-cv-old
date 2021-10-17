@@ -228,7 +228,9 @@ padding: 15px;
 
 position: relative;
 bottom: 620px;
-left: 920px;
+left: 243px;
+margin-left: auto;
+margin-right: auto;
 background-color:#1C2541;
 color: #ffffff;
 height: 380px;
@@ -242,9 +244,10 @@ line-height: 30px;
 
 .video_class {
     position: relative;
-    right: 90px;
-    top: 70px;
-    z-index: 1000;
+    margin-left: auto;
+    margin-right: auto;
+   left: 205px;
+   bottom: 550px;
     background-color: #0B132B;
     width: 600px;
     height: 400px;
@@ -271,9 +274,10 @@ line-height: 30px;
 
 .skills_class {
     position: relative;
-    left: 440px;
+    margin-left: auto;
+margin-right: auto;
     width: 970px;
-    bottom: 90px;
+    bottom: 450px;
     padding: 20px;
     background-color:#1C2541;
     color: #ffffff;
@@ -295,10 +299,11 @@ line-height: 30px;
 
 .code_class {
     position: relative;
-    left: 440px;
+    margin-left: auto;
+margin-right: auto;
     width: 970px;
     padding: 20px;
-    
+    bottom: 310px;
     color: #ffffff;
     background-color:#1C2541;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -312,8 +317,9 @@ line-height: 30px;
 
 .education_class {
     position: relative;
-    top: 100px;
-    left: 440px;
+    bottom: 160px;
+    margin-left: auto;
+margin-right: auto;
     width: 970px;
     padding: 20px;
     color: #ffffff;
@@ -336,8 +342,9 @@ line-height: 30px;
 
 .lang_class {
     position: relative;
-    top: 210px;
-    left: 440px;
+    
+    margin-left: auto;
+margin-right: auto;
     width: 970px;
     padding: 20px;
     background-color:#1C2541;
@@ -360,7 +367,7 @@ line-height: 30px;
 
 .footer_class {
     position: relative;
-    top: 400px;
+    top: 250px;
     background-color: #1C2541;
     height: 150px;
     margin: 0;
@@ -388,4 +395,5 @@ line-height: 30px;
 
 .footer_2021{
     width: 200px;
+    
 }
