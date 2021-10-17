@@ -15,7 +15,7 @@ h3 {
 .navigation_panel {
     position: fixed;
     top: 110px;
-    left: 1510px;
+    left: 1560px;
     background-color: #1C2541;
     width: 270px;
     height: 340px;
@@ -38,7 +38,7 @@ h3 {
     top: 50px;
     width: 60px;
     height: 60px;
-    left: 1510px;
+    left: 1560px;
     background-color: #1C2541;
     padding: 16px;
     border: none;
