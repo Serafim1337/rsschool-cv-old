@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serafim Evthikhiev</title>
+    <link href="style.css" rel="stylesheet"> 
+     
+    <link rel="shortcut icon" href="materials/icon.png" type="image/png">
+</head>
+
+<body>
+    <header>
+        <div class="dropdown_menu">
+            <button class="drop_button"><img src="materials/menu2.2.png" class="menu_button_image"></button>
+        <div class="navigation_panel">
+            <nav class="nav_links"> 
+                <ul class="nav_links_list">
+             <li>  <a href="#contacts-id" class="contact_link"> CONTACTS</a> </li> 
+             <li>  <a href="#about_id" class="about_link"> ABOUT ME</a></li> 
+              <li> <a href="#skills_id" class="skills_link"> SKILLS</a></li> 
+             <li>  <a href="#code_id" class="code_link"> CODE EXAMPLE </a></li> 
+              <li>  <a href="#education_id" class="education_link"> EDUCATION</a></li> 
+              <li>  <a href="#lang_id" class="lang_link"> LANGUAGES</a></li> 
+            </ul>
+            </nav>
+
+        </div>
+    </div>
+    </header>
+    <main class="main_class">
+        <div class="contacts_class" id="contacts-id">
+         <!--  <aside class="contacts_class_aside"> -->
+            <figure>
+                <img src="materials/user_photo.jpg" alt="User photo" class="image_class">
+            </figure>
+            <h1 class="username">Serafim Evthikhiev</h1>
+            <section class="contact_section">
+           <!--<h3>Contact information</h3> -->
+           
+           <ul>
+               <li class="contact_item"><a> <img src="materials/phone_contact_png.png" class="phone_contact_image"></a> <a href="tel:+375297777920" class="contact_item_link">+375297777920</a></li>
+               <li class="contact_item"><a> <img src="materials/email_contact_png.png" class="email_contact_image"></a> <a href="mailto:plamen2001@mail.ru" class="contact_item_link">plamen2001@mail.ru</a></li>
+               <li class="contact_item"><a> <img src="materials/telegram_contact_png.png" class="telegram_contact_image"></a> <a href="https://t.me/sam_sambl4" class="contact_item_link">@sam_sambl4</a></li>
+               <li class="contact_item"><a> <img src="materials/github_contact_png.png" class="github_contact_image"></a> <a href="https://github.com/Serafim1337" class="contact_item_link">Serafim1337</a></li>
+           </ul>
+        </section>
+         <!--   </aside>--> 
+        </div>
+        <div class="about_class" id="about_id">
+<section>
+    <h3>About Me</h3>
+   <p> I am 20 years old student of <a href="https://www.bsuir.by/" class="about_class_link">BSUIR</a>, studying my third year on the Faculty of Engineering and Economics.
+
+    <br><br>While studying here we have received knowledge in many subjects: from history and sociology to economic sciences and programming. I enjoy studying economics, but i am also keen on programming.
+
+    <br><br>We have studied few programming languages and spheres but i want to do my best at front-end<span>)</span>
+</p>
+
+</section>
+        </div>
+        <div class="video_class">
+            <iframe src="https://www.youtube.com/embed/G1IbRujko-A" frameborder="0" width="600" height="400"></iframe>
+        </div>
+        <div class="skills_class" id="skills_id">
+<section>
+    <h3>Skills</h3>
+    <a href="https://github.com/Serafim1337/repo/tree/labs" class="labs_link"><h4>View labs examples in my repo</h4></a>
+    <ul>
+        <li>Java</li>
+        <ul>
+            <li>Java EE (Java Servlets, JSP, Hibernate, TCP/IP&UDP Client-Server)</li>
+            <li>Java SE (Swing)</li>
+            <li>JDBC</li>
+            <li>Java FX (Scene Builder)</li>
+        </ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS (Fundamentals)</li>
+        <li>C/C++ (Fundamentals)</li>
+        <li>Git/GitHub</li>
+        <li>SQL (Fundamentals)
+            <ul>
+                <li>Microsoft SQL Server, MySQL Workbench, ERwin Data Modeler</li>
+            </ul>
+        </li>
+        <li>Function modeling (IDEF0, IDEF3, UML)</li>
+        <li>Visual Studio, VS Code, IntelliJ IDEA</li>
+        <li>Adobe Photoshop</li>
+    </ul>
+</section>
+        </div>
+        <div class="code_class" id="code_id">
+            <h3>Code example</h3>
+            <a href=" https://github.com/Serafim1337/repo/tree/labs/JavaSE%20Servlet%20lab" class="labs_link"><h4>Java Servlet, implementing simple math actions:</h4></a>
+            <pre>
+            <code class="code_section">
+                @WebServlet("/2servlet")
+                public class servlet2 extends HttpServlet{
+                    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+                            throws ServletException, IOException {
+                
+                        response.setContentType("text/html");
+                        PrintWriter writer = response.getWriter();
+                
+                        String number1 = request.getParameter("number1");
+                        String number2 = request.getParameter("number2");
+                        String math_action = request.getParameter("math_action");
+                        float num1= Float.parseFloat(number1);
+                        int num2= Integer.parseInt(number2);
+                        float res1=num1+num2;
+                        float res2=num1-num2;
+                        float res3=num1*num2;
+                        float res4=num1/num2;
+                        if (math_action.equals("+"))
+                        {
+                            writer.println("<<span>center</span>>"+
+                                    "<<span>p</span>>"+
+                                    "<<span>font size=5  color = red face=Arial</span>>" +
+                                    number1 +" "+ math_action+" "+number2+" = "+res1+"
+                                    <<span>/font"+ "</span><<span>/p</span>>"+"<<span>/center></span>");
+                        }
+                        if (math_action.equals("-"))
+                        {
+                            writer.println("<<span>center</span>>"+
+                            "<<span>p</span>>"+
+                            "<<span>font size=5  color = red face=Arial</span>>" +
+                                    number1 +" "+ math_action+" "+number2+" = "+res2+"
+                                    <<span>/font"+ "</span><<span>/p</span>>"+"<<span>/center></span>");
+                        }                   
+            </code>
+        </pre>
+        </div>
+        <div class="education_class" id="education_id">
+<h3>Education</h3>
+<ul>
+    <li><a href="https://www.bsuir.by/ru/ief" class="edu_block_links">BSUIR (Faculty of Engineering and Economics)</a></li>
+    <li><a href="https://www.bsuir.by/ru/ief" class="edu_block_links">RS School JS / FRONT-END. STAGE 0</a></li>
+    <li><a href="https://ru.code-basics.com/" class="edu_block_links">Code Basics (HTML, CSS, JS)</a></li>
+    <li><a href="https://learn.javascript.ru/" class="edu_block_links">LearnJavaScript.ru</a></li>
+</ul>
+        </div>
+        <div class="lang_class" id="lang_id">
+            <h3>Languages</h3>
+<ul>
+    <li>Belorussian </li>
+    <li>Russian</li>
+    <li>English B1+ (<a href="https://training.by/#!/Home?lang=ru&City=37,38,39,40,41,42,50" class="lang_block_links">training.by</a> test results: B2)
+        <ul>
+            <li>Courses <a href="https://www.100ballov.by/" class="lang_block_links">100ballov</a></li>
+        </ul>
+    </li>
+</ul>
+        </div>
+
+    </main>
+
+    <footer class="footer_class">
+
+<a href="https://github.com/Serafim1337"><img src="materials/gh_logo2.png" alt="gh logo" class="footer_gh_image"></a>
+<a href="https://en.wikipedia.org/wiki/2021"> <img src="materials/2021_png.png" class="footer_2021"></a>
+<a href="https://rs.school/js/"><img src="materials/rs_school_logo.png" alt="rs logo" class="footer_rs_school_logo"></a>
+
+    </footer>
+</body>
+</html>
