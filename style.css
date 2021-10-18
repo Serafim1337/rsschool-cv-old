@@ -1,7 +1,7 @@
 html {
+    overflow-x: hidden;
     scroll-behavior: smooth;
     background-color: #0B132B;
-    overflow-x: hidden;
 }
 
 body {
@@ -15,15 +15,17 @@ h3 {
 .navigation_panel {
     position: fixed;
     top: 80px;
-    left: 1610px;
-    background-color: #1C2541;
+    left: 20px;
+    margin-left: auto;
+    margin-right: auto;
     width: 270px;
     height: 340px;
-    z-index: 100;
+    z-index: 1000;
+    display: none;
+    background-color: #1C2541;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  display: none;
 }
 
 .menu_button_image {
@@ -36,61 +38,59 @@ h3 {
 .drop_button {
     position: fixed;
     top:20px;
+    left: 20px;
+    margin-left: auto;
+    margin-right: auto;
     width: 60px;
     height: 60px;
-    left: 1610px;
     background-color: #1C2541;
-    padding: 16px;
     border: none;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    
+  padding: 16px;
 }
 
-  .dropdown_menu {
+.dropdown_menu {
     position: fixed;
     display: inline-block;
-  }
+}
 
   
-  .dropdown_menu:hover .navigation_panel {
+.dropdown_menu:hover .navigation_panel {
       display: block;
-    }
+}
 
-  .dropdown_menu:hover .drop_button {
+.dropdown_menu:hover .drop_button {
       background-color: #3A506B;
-      
-    }
-
+}
 
 .nav_links {
-    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     font-weight: bold;
     line-height: 50px;
 }
+
 .nav_links_list {
     list-style: none;
 }
-
 
 .contact_link {
     position:relative;
     border-style: solid;
     border-color: #000000;
     border-width: 1px;
-    text-decoration: none;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     color: #ffffff;
     padding: 5px;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    text-decoration: none;
 }
+
 .contact_link:hover {
 background-color: #3A506B;
-
 padding: 15px;
 }
 
@@ -99,13 +99,12 @@ padding: 15px;
     border-style: solid;
     border-color: #000000;
     border-width: 1px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     text-decoration: none;
     color: #ffffff;
     padding: 5px;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  
 }
 
 .about_link:hover {
@@ -118,12 +117,12 @@ padding: 15px;
     border-style: solid;
     border-color: #000000;
     border-width: 1px;
-    text-decoration: none;
-    color: #ffffff;
-    padding: 5px;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+   text-decoration: none;
+   color: #ffffff;
+   padding: 5px;
 }
 
 .skills_link:hover {
@@ -135,13 +134,13 @@ padding: 15px;
     position:relative;
     border-style: solid;
     border-color: #000000;
-    border-width: 1px;
+    border-width: 1px; 
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     text-decoration: none;
     color: #ffffff;
     padding: 5px;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 .code_link:hover {
@@ -154,12 +153,12 @@ padding: 15px;
     border-style: solid;
     border-color: #000000;
     border-width: 1px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     text-decoration: none;
     color: #ffffff;
     padding: 5px;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 .education_link:hover {
@@ -172,12 +171,12 @@ padding: 15px;
     border-style: solid;
     border-color: #000000;
     border-width: 1px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     text-decoration: none;
     color: #ffffff;
     padding: 5px;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 .lang_link:hover {
@@ -187,24 +186,20 @@ padding: 15px;
 
 .contacts_class {
     position:  relative;
-    background-color:#1C2541;
     top: 20px;
-
-    
-   right: 335px;
+    right: 335px;
     margin-left: auto;
     margin-right: auto;
-    
     width: 300px;
     height: 850px;
-    
+    background-color:#1C2541;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 55px;
     color: #ffffff;
     padding: 20px;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 .contact_section {
@@ -214,16 +209,15 @@ padding: 15px;
 
 .username {
     position: relative;
+    bottom: 50px;
+    right: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     font-size: 70px;
-bottom: 50px;
-right: 5px;
-
 }
 
 .phone_contact_image {
-    position: relative;
+position: relative;
 width: 30px;
 top: 10px;
 }
@@ -248,20 +242,18 @@ top: 10px;
 
 .contact_item {
     list-style: none;
-    
 }
 
 .contact_item_link {
-    color: #ffffff;
-    
-text-decoration: none;
     border-style: solid;
     border-width: 1px;
-    padding: 10px;
     border-color: #000000;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .contact_item_link:hover {
@@ -277,21 +269,20 @@ text-decoration: none;
 }
 
 .about_class {
-
 position: relative;
 bottom: 870px;
 left: 243px;
 margin-left: auto;
 margin-right: auto;
-background-color:#1C2541;
-color: #ffffff;
 height: 380px;
-padding: 20px;
 width: 485px;
-line-height: 30px;
+background-color:#1C2541;
 -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+ -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+line-height: 30px;
+padding: 20px;
+color: #ffffff;
 }
 
 .video_class {
@@ -300,9 +291,9 @@ line-height: 30px;
     margin-right: auto;
    left: 205px;
    bottom: 800px;
-    background-color: #0B132B;
     width: 600px;
     height: 400px;
+    background-color: #0B132B;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -315,28 +306,25 @@ line-height: 30px;
 
 .about_class_link:hover {
     background-color: #3A506B;
-
 }
 
 .main_class {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-    
 }
 
 .skills_class {
-    position: relative;
-    margin-left: auto;
+  position: relative;
+ margin-left: auto;
 margin-right: auto;
-    width: 970px;
-    bottom: 640px;
-    padding: 20px;
-    background-color:#1C2541;
-    color: #ffffff;
-    line-height: 30px;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+ width: 970px;
+  bottom: 640px;
+ background-color:#1C2541;
+ -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  padding: 20px;
+  color: #ffffff;
+    line-height: 30px;
 }
 
 .labs_link {
@@ -354,13 +342,13 @@ margin-right: auto;
     margin-left: auto;
 margin-right: auto;
     width: 970px;
-    padding: 20px;
     bottom: 470px;
-    color: #ffffff;
     background-color:#1C2541;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  padding: 20px;
+  color: #ffffff;
 }
 
 .code_section {
@@ -373,13 +361,13 @@ margin-right: auto;
     margin-left: auto;
 margin-right: auto;
     width: 970px;
-    padding: 20px;
-    color: #ffffff;
     background-color:#1C2541;
-    line-height: 30px;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  padding: 20px;
+    color: #ffffff;
+    line-height: 30px;
 }
 
 .edu_block_links:hover {
@@ -398,13 +386,13 @@ margin-right: auto;
     margin-left: auto;
 margin-right: auto;
     width: 970px;
-    padding: 20px;
     background-color:#1C2541;
-    color: #ffffff;
-    line-height: 30px;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  padding: 20px;
+  color: #ffffff;
+    line-height: 30px;
 }
 
 .lang_block_links {
@@ -424,7 +412,6 @@ margin-right: auto;
     height: 250px;
     text-align: center;
     width: 100%;
-    
 }
 
 .footer_gh_image {
