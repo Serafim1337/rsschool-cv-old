@@ -43,6 +43,7 @@ h3 {
     margin-right: auto;
     width: 60px;
     height: 60px;
+    z-index: 1000;
     background-color: #1C2541;
     border: none;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -54,6 +55,7 @@ h3 {
 .dropdown_menu {
     position: fixed;
     display: inline-block;
+    z-index: 1000;
 }
 
   
