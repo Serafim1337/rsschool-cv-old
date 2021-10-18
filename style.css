@@ -15,7 +15,9 @@ h3 {
 .navigation_panel {
     position: fixed;
     top: 80px;
-    left: 1610px;
+    left: 1490px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #1C2541;
     width: 270px;
     height: 340px;
@@ -36,9 +38,12 @@ h3 {
 .drop_button {
     position: fixed;
     top:20px;
+    left: 1490px;
+    margin-left: auto;
+    margin-right: auto;
+
     width: 60px;
     height: 60px;
-    left: 1610px;
     background-color: #1C2541;
     padding: 16px;
     border: none;
