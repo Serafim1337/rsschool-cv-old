@@ -220,11 +220,6 @@ h3 {
     font-style: italic;
 }
 
-.labs_link:hover {
-    background-color: var(--hover-color);
-    padding: 15px;
-}
-
 /*--------------------------------------------------- code section  */
 
 .code_container {
