@@ -1,0 +1,347 @@
+/*-------------------------------------- general */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg-color);
+  font-family: var(--ff-default);
+  font-weight: var(--fw_default);
+  font-size: var(--fs-default);
+}
+
+:root {
+--bg-color: #0B132B;
+--block-color: #1C2541;
+--hover-color: #3A506B;
+--white-color: #ffffff;
+--black-color: #000000;
+--ff-default: Roboto;
+--fs-default: 22px;
+--fw_default: 300;
+--box-shadow-default: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(assets/fonts/Roboto/Roboto-Light.ttf);
+}
+
+h3 {
+  font-size: 28px;
+}
+
+/*----------------------------------------- navigation */
+
+.navigation_panel {
+  position: fixed;
+  margin: 2vh 0 0 2vw;
+  width: 280px;
+  opacity: 0;
+  transition: 0.5s;
+  visibility: hidden;
+  background-color: var(--block-color);
+  box-shadow: var(--box-shadow-default);
+  z-index: 101;
+}
+
+.menu_button_image {
+  max-width: 55px;
+  max-height: 45px;
+}
+
+.drop_button {
+  position: fixed;
+  margin: 2vh 0 0 2vw;
+  z-index: 100;
+  padding: 6px;
+  display: flex;
+  background-color: var(--block-color);
+  box-shadow: var(--box-shadow-default);
+}
+
+.dropdown_menu:hover .navigation_panel {
+  visibility: visible;
+  opacity: 1;
+}
+
+.dropdown_menu:hover .drop_button {
+  background-color: var(--hover-color);
+}
+
+.nav_links {
+  font-family: Roboto;
+  font-weight: bold;
+  line-height: 50px;
+  letter-spacing: 3px;
+}
+
+.nav_links_list {
+  list-style: none;
+}
+
+.nav_section_link {
+  border-style: solid;
+  border-color: var(--black-color);
+  border-width: 1px;
+  box-shadow: var(--box-shadow-default);
+  text-decoration: none;
+  color: var(--white-color);
+  padding: 5px;
+}
+
+.nav_section_link:hover {
+  background-color: var(--hover-color);
+  padding: 15px;
+}
+
+/*--------------------------------------------------- main  */
+
+.main_class {
+
+}
+
+/*--------------------------------------------------- user section*/
+
+.container {
+  margin: 0 auto;
+  width: 1150px;
+}
+
+.user_container {
+  display: flex;
+}
+
+.user_section {
+  padding: 20px 0;
+}
+
+.left_side {
+  width: 40%;
+}
+
+.right_side {
+  width: 60%;
+  margin-left: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.contacts_class {
+  width: 100%;
+  background-color:var(--block-color);
+  box-shadow: var(--box-shadow-default);
+  font-family: Roboto;
+  line-height: 55px;
+  color: var(--white-color);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.username {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 70px;
+  margin: 20px 40px;
+}
+
+.contact_image {
+  position: relative;
+  width: 30px;
+  top: 10px;
+}
+
+.contact_item {
+  list-style: none;
+}
+
+.contact_item_link {
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--black-color);
+  box-shadow: var(--box-shadow-default);
+  padding: 10px;
+  color: var(--white-color);
+  text-decoration: none;
+}
+
+.contact_item_link:hover {
+  background-color: var(--hover-color);
+  padding: 15px;
+}
+
+.image_class {
+  width: 100%;
+}
+
+.about_class {
+  width: 100%;
+  background-color:var(--block-color);
+  box-shadow: var(--box-shadow-default);
+  line-height: 30px;
+  padding: 20px;
+  color: var(--white-color);
+  box-sizing: border-box;
+}
+
+.video_class {
+  width: 100%;
+  display: block;
+  background-color: var(--block-color);
+  box-shadow: var(--box-shadow-default);
+}
+
+.about_class_link {
+  color: var(--white-color);
+  font-style: italic;
+}
+
+.about_class_link:hover {
+  background-color: var(--hover-color);
+}
+
+/*---------------------------------------------------- skills section  */
+
+.skills_container {
+  background-color:var(--block-color);
+  box-shadow: var(--box-shadow-default);
+  box-sizing: border-box;
+  padding: 20px;
+  color: var(--white-color);
+  line-height: 30px;
+  margin: 50px auto;
+}
+
+.labs_link {
+  color: var(--white-color);
+  font-style: italic;
+}
+
+.labs_link:hover {
+  background-color: var(--hover-color);
+  padding: 15px;
+}
+
+/*--------------------------------------------------- code section  */
+
+.code_container {
+  background-color:var(--block-color);
+  box-shadow: var(--box-shadow-default);
+  padding: 20px;
+  color: #ffffff;
+  margin: 50px auto;
+  box-sizing: border-box;
+}
+
+.code_block {
+  font-size: 17px;
+}
+
+/*--------------------------------------------------- projects section  */
+
+.projects_container {
+  background-color:var(--block-color);
+  box-shadow: var(--box-shadow-default);
+  padding: 20px;
+  color: #ffffff;
+  margin: 50px auto;
+  box-sizing: border-box;
+}
+
+.projects_list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.project_card {
+  text-align: center;
+  padding: 5px;
+  border: 1px solid var(--white-color);
+  box-shadow: var(--box-shadow-default);
+  color: var(--white-color);
+  transition: 0.3s linear;
+}
+
+.project_card:hover {
+  background-color: var(--hover-color);
+  
+}
+
+.project_card a {
+  text-decoration: none;
+  color: var(--white-color);
+}
+
+.card_header {
+  margin: 0;
+}
+
+.card_image {
+  width: 300px;
+}
+
+/*--------------------------------------------------- education section  */
+
+.education_container {
+  background-color:var(--block-color);
+  box-shadow: var(--box-shadow-default);
+  padding: 20px;
+  color: var(--white-color);
+  line-height: 30px;
+  margin: 50px auto;
+  box-sizing: border-box;
+}
+
+.edu_block_links:hover {
+  background-color: var(--hover-color);
+  padding: 5px;
+}
+
+.edu_block_links {
+  color: var(--white-color);
+  font-style: italic;
+}
+
+/*--------------------------------------------------- lang section  */
+
+.lang_container {
+  background-color:var(--block-color);
+  box-shadow: var(--box-shadow-default);
+  padding: 20px;
+  color: var(--white-color);
+  line-height: 30px;
+  margin: 50px auto;
+  box-sizing: border-box;
+}
+
+.lang_block_links {
+  color: var(--white-color);
+  font-style: italic;
+}
+
+.lang_block_links:hover {
+  background-color: var(--hover-color);
+  padding: 5px;
+}
+
+/*--------------------------------------------------- footer  */
+
+.footer_class {
+  background-color: #1C2541;
+  text-align: center;
+  width: 100%;
+  padding: 30px 0;
+}
+
+.footer_link {
+  width: 33%;
+  display: inline-block;
+}
+
+.footer_link img {
+  width: 200px;
+}
