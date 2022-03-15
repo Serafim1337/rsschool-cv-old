@@ -35,7 +35,7 @@
     * Microsoft SQL Server, MySQL Workbench, ERwin Data Modeler
 *  Function modeling (IDEF0, IDEF3, UML)
 * Visual Studio, VS Code, IntelliJ IDEA
-* Adobe Photoshop
+* Adobe Photoshop, Figma
 
 ## Projects
 * [Pet shelter](https://serafim1337.github.io/shelter/main.html)
