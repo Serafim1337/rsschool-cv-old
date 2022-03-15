@@ -7,6 +7,8 @@
 * Telegram: [@sam_sambl4](https://t.me/sam_sambl4)
 * Github: [Serafim1337](https://github.com/Serafim1337)
 
+## Sertificate 
+[RSschool Stage #0](https://app.rs.school/certificate/1swaimph)
  
 ## About Me
 
@@ -25,7 +27,7 @@
     * JDBC 
     * Java FX (Scene Builder)
 * HTML
-* CSS
+* CSS, SASS(SCSS)
 * JS (Fundamentals)
 * C/C++ (Fundamentals)
 * Git/GitHub
@@ -34,6 +36,14 @@
 *  Function modeling (IDEF0, IDEF3, UML)
 * Visual Studio, VS Code, IntelliJ IDEA
 * Adobe Photoshop
+
+## Projects
+* [Pet shelter](https://serafim1337.github.io/shelter/main.html)
+* [Photographer Portfolio](https://serafim1337.github.io/portfolio3.0/)
+* [2048 game](https://serafim1337.github.io/random-game/)
+* [Movie app](https://serafim1337.github.io/movie-app/)
+* [Audio player](https://serafim1337.github.io/audio-player/)
+* [Museum(non-adaptive layщгt)]()
 
 ## Code example
 
