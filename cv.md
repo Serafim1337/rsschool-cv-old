@@ -28,7 +28,7 @@
     * Java FX (Scene Builder)
 * HTML
 * CSS, SASS(SCSS)
-* JS (Fundamentals)
+* JS (Basics, ES6)
 * C/C++ (Fundamentals)
 * Git/GitHub
 * SQL (Fundamentals)
