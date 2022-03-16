@@ -43,7 +43,7 @@
 * [2048 game](https://serafim1337.github.io/random-game/)
 * [Movie app](https://serafim1337.github.io/movie-app/)
 * [Audio player](https://serafim1337.github.io/audio-player/)
-* [Museum(non-adaptive layщгt)]()
+* [Museum(non-adaptive layout)]()
 
 ## Code example
 
